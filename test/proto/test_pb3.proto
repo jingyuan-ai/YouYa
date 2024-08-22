@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package pb3;
+
+message TestMsg {
+    string name = 1;
+    uint64 timestamp = 2;
+    repeated int32 ival = 3;
+};
