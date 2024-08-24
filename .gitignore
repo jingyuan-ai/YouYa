@@ -33,3 +33,6 @@
 
 # Build
 build
+
+# Generated file
+src/config/config.h
