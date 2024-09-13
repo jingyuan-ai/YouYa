@@ -8,4 +8,4 @@ void Kong::print() {
     std::cout << "kong!" << std::endl;
 }
 
-}
+}  // namespace youya

@@ -9,4 +9,4 @@ public:
     void print();
 };
 
-}
+}  // namespace youya

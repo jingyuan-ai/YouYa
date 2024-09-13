@@ -1,7 +1,6 @@
 #include "version.h"
 
 #include "config/config.h"
-
 #include "log/log.h"
 
 #define LOG_SDK_VERSION LOGI << (STRING(LINK_STRING(COMMON_VERSION, SDK_VERSION)))
@@ -21,4 +20,4 @@ const std::string version() {
     return (std::string(SDK_VERSION_STR));
 }
 
-}
+}  // namespace youya

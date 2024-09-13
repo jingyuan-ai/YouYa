@@ -6,4 +6,4 @@ namespace youya {
 
 #define LOGI std::cout
 
-}
+}  // namespace youya
